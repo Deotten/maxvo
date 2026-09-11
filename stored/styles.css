@@ -1,0 +1,66 @@
+body {   
+
+								/* Donkerblauw: #003B7A Kleuren Huisstijl Max
+								Cyaan: #00B8D4
+								Wit: #FFFFFF
+								Rood: #E6002D */
+	background-color:#ffffff; 
+	text-align: center; 
+	font-family: "Arial";
+	margin: 0;
+}
+h {
+	color: blue;
+}
+p {
+	color: green;
+}
+a {
+	color: pink;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #003B7A;
+	display: flex;
+	justify-content: center;
+	position: sticky;
+		top: 0;
+		width: 100%;
+}
+
+ul li {
+	float: left;
+}
+
+ul li a {
+	display: block;
+	color: white;
+	padding: 10px 12px;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	background-color: #E6002D;
+}
+
+ul li a.active {
+	background-color: #00B8D4;
+}
+
+.logo {
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+.header {
+	background-color: #003B7A;
+	height: 100px;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
